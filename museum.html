@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中国文史博物馆资源库 | 非遗灵感充电站</title>
+    <meta
+      name="description"
+      content="中国文史博物馆资源库，汇集全国各省市重点博物馆资源，探索中华文明瑰宝。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body id="page-top" data-page="museum">
+    <header class="site-header">
+      <div class="logo-wrapper">
+        <img src="assets/brand/site-logo.svg" alt="非遗灵感充电站 logo" />
+        <div class="logo-copy">
+          <span class="brand-title">非遗灵感充电站</span>
+          <span class="brand-subtitle">汕头职业技术学院 · AI共创</span>
+        </div>
+      </div>
+      <nav class="primary-nav" aria-label="主导航">
+        <a href="index.html" data-route="home">网站主页</a>
+        <a href="national.html" data-route="national">国家级平台</a>
+        <a href="local.html" data-route="local">地方资源库</a>
+        <a href="academic.html" data-route="academic">学术研究</a>
+        <a href="museum.html" data-route="museum">文史博物馆</a>
+        <a href="celebrity.html" data-route="celebrity">名人纪念馆</a>
+        <a href="international.html" data-route="international">国际非遗</a>
+        <a href="red.html" data-route="red">红色专区</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="museum-hero" id="museum-hero">
+        <div class="museum-hero-content">
+          <div class="museum-hero-header">
+            <div class="hero-text-group">
+              <h1>中国文史博物馆资源库</h1>
+              <p class="lead">
+                汇聚全国 26 个省市自治区的 200+ 重点博物馆资源，一站式探索中华文明瑰宝与地域文化特色。
+              </p>
+            </div>
+            <div class="hero-metrics-inline">
+              <div>
+                <strong>26</strong>
+                <span>省市区域</span>
+              </div>
+              <div>
+                <strong>200+</strong>
+                <span>博物馆资源</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resource-section museum-section" id="museum">
+        <div class="section-head">
+          <h2>按省市浏览博物馆资源</h2>
+          <p>
+            点击省市分类按钮切换查看，每个卡片都可直接跳转至博物馆官网。
+          </p>
+        </div>
+
+        <div class="museum-filter-bar" role="toolbar" aria-label="省市分类筛选">
+          <div class="filter-scroll-wrapper">
+            <div class="museum-category-tabs" id="category-tabs">
+              <!-- 分类按钮由JS动态生成 -->
+            </div>
+          </div>
+        </div>
+
+        <div class="museum-stats-bar">
+          <span class="stat-chip">
+            <small>当前区域</small>
+            <strong id="current-region-name">广东省</strong>
+          </span>
+          <span class="stat-chip subtle">
+            <small>博物馆数量</small>
+            <strong id="current-region-count">0</strong>
+          </span>
+        </div>
+
+        <div class="resource-grid" id="museum-grid">
+          <!-- 博物馆卡片由JS动态生成 -->
+        </div>
+      </section>
+    </main>
+
+    <a class="scroll-top-btn" href="#page-top" aria-label="返回顶部">↑</a>
+
+    <footer class="site-footer">
+      <p>
+        © 2025 非遗灵感充电站 · 汕头职业技术学院文化创意与数字技术团队 ·
+        All Rights Reserved.
+      </p>
+      <div class="footer-links">
+        <a href="index.html">回到总览</a>
+        <a href="https://www.ihchina.cn/" target="_blank" rel="noreferrer"
+          >中国非物质文化遗产网</a
+        >
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>
+
