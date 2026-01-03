@@ -16,11 +16,13 @@
     />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="icon" type="image/png" href="assets/brand/favicon.png" />
+    <!-- 预加载关键图片资源 -->
+    <link rel="preload" as="image" href="assets/brand/site-logo.svg" />
   </head>
   <body id="page-top" data-page="local">
     <header class="site-header">
       <a class="logo-wrapper" href="index.html" aria-label="返回主页">
-        <img src="assets/brand/site-logo.svg" alt="非遗灵感充电站 logo" />
+        <img src="assets/brand/site-logo.svg" alt="非遗灵感充电站 logo" width="52" height="52" decoding="async" />
         <div class="logo-copy">
           <span class="brand-title">非遗灵感充电站</span>
           <span class="brand-subtitle">汕头职院非遗设计灵感库</span>
@@ -109,7 +111,7 @@
     <footer class="site-footer">
       <div class="footer-left">
         <div class="footer-brand">
-          <img src="assets/brand/favicon.svg" alt="非遗灵感充电站" />
+          <img src="assets/brand/favicon.svg" alt="非遗灵感充电站" width="48" height="48" decoding="async" loading="lazy" />
           <div class="footer-brand-text">
             <span class="name">非遗灵感充电站</span>
             <span class="slogan">传承非遗文化，激发创意灵感</span>
@@ -125,15 +127,15 @@
       </div>
       <div class="footer-qrcode">
         <div class="qrcode-item">
-          <img src="assets/qrcode/1-汕职院艺术设计学院-二维码.png" alt="汕职院艺术设计学院公众号" />
+          <img src="assets/qrcode/1-汕职院艺术设计学院-二维码.png" alt="汕职院艺术设计学院公众号" width="110" height="110" decoding="async" loading="lazy" />
           <span>汕职院艺术设计学院</span>
         </div>
         <div class="qrcode-item">
-          <img src="assets/qrcode/2-汕头职业技术学院-二维码.png" alt="汕头职业技术学院公众号" />
+          <img src="assets/qrcode/2-汕头职业技术学院-二维码.png" alt="汕头职业技术学院公众号" width="110" height="110" decoding="async" loading="lazy" />
           <span>汕头职业技术学院</span>
         </div>
         <div class="qrcode-item">
-          <img src="assets/qrcode/3-汕头职院学工在线-二维码.png" alt="汕头职院学工在线公众号" />
+          <img src="assets/qrcode/3-汕头职院学工在线-二维码.png" alt="汕头职院学工在线公众号" width="110" height="110" decoding="async" loading="lazy" />
           <span>汕头职院学工在线</span>
         </div>
       </div>

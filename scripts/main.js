@@ -206,7 +206,7 @@ const renderSearchResultItem = (item, keyword) => {
 
   return `
     <a class="search-result-item" href="${item.url}" target="_blank" rel="noreferrer">
-      <img class="search-result-logo" src="${logoSrc}" alt="${item.name}" onerror="this.src='assets/brand/site-logo.svg'" loading="lazy" />
+      <img class="search-result-logo" src="${logoSrc}" alt="${item.name}" width="48" height="48" onerror="this.src='assets/brand/site-logo.svg'" loading="lazy" decoding="async" />
       <div class="search-result-info">
         <h4 class="search-result-name">${highlightedName}</h4>
         <p class="search-result-desc">${highlightedDesc}</p>
@@ -434,7 +434,7 @@ const renderResourceCard = (resource) => {
   return `
     <article class="resource-card">
       <div class="card-media">
-        <img class="resource-logo${logoClass}" src="${resource.logo}" alt="${resource.name} logo" loading="lazy" />
+        <img class="resource-logo${logoClass}" src="${resource.logo}" alt="${resource.name} logo" width="88" height="88" loading="lazy" decoding="async" />
       </div>
       <div class="resource-meta">
         <h3>${resource.name}</h3>
@@ -663,7 +663,7 @@ const renderMuseumCard = (museum) => {
   return `
     <article class="resource-card museum-card">
       <div class="card-media">
-        <img class="resource-logo" src="${museum.logo}" alt="${museum.name} logo" loading="lazy" onerror="this.src='assets/brand/site-logo.svg'" />
+        <img class="resource-logo" src="${museum.logo}" alt="${museum.name} logo" width="100" height="100" loading="lazy" decoding="async" onerror="this.src='assets/brand/site-logo.svg'" />
       </div>
       <div class="resource-meta">
         <h3>${museum.name}</h3>
@@ -848,7 +848,7 @@ const renderFilmCard = (film) => {
   return `
     <article class="resource-card film-card">
       <div class="card-media">
-        <img class="film-poster" src="${film.logo}" alt="${film.name} 海报" loading="lazy" onerror="this.src='assets/brand/site-logo.svg'" />
+        <img class="film-poster" src="${film.logo}" alt="${film.name} 海报" width="260" height="280" loading="lazy" decoding="async" onerror="this.src='assets/brand/site-logo.svg'" />
       </div>
       <div class="resource-meta">
         <h3>${film.name}</h3>
@@ -1073,7 +1073,7 @@ const renderBookCard = (book) => {
   return `
     <article class="resource-card book-card">
       <div class="card-media">
-        <img class="book-cover" src="${book.cover}" alt="${book.name} 封面" loading="lazy" onerror="this.src='assets/brand/site-logo.svg'" />
+        <img class="book-cover" src="${book.cover}" alt="${book.name} 封面" width="200" height="300" loading="lazy" decoding="async" onerror="this.src='assets/brand/site-logo.svg'" />
       </div>
       <div class="resource-meta">
         <h3>${book.name}</h3>
@@ -1270,7 +1270,7 @@ const renderDesignProjectCard = (project) => {
   return `
     <article class="design-project-card">
       <div class="design-project-cover">
-        <img src="${project.cover}" alt="${project.name} 封面" loading="lazy" onerror="this.src='assets/brand/site-logo.svg'" />
+        <img src="${project.cover}" alt="${project.name} 封面" width="320" height="240" loading="lazy" decoding="async" onerror="this.src='assets/brand/site-logo.svg'" />
       </div>
       <div class="design-project-info">
         <h3>${project.name}</h3>
@@ -1309,7 +1309,7 @@ const renderStudioCard = (studio) => {
   return `
     <article class="studio-card">
       <div class="studio-logo">
-        <img src="${studio.logo}" alt="${studio.name} logo" loading="lazy" onerror="this.src='assets/brand/site-logo.svg'" />
+        <img src="${studio.logo}" alt="${studio.name} logo" width="180" height="180" loading="lazy" decoding="async" onerror="this.src='assets/brand/site-logo.svg'" />
       </div>
       <div class="studio-info">
         <div class="studio-header">
