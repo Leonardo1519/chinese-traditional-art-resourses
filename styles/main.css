@@ -44,6 +44,44 @@ img {
   display: block;
 }
 
+/* 图片加载优化 - 占位符和渐入动画 */
+.resource-logo,
+.film-poster,
+.book-cover,
+.studio-logo img,
+.design-project-cover img,
+.search-result-logo {
+  background: linear-gradient(135deg, #f5f0e8 0%, #e8ddd0 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.resource-logo[src]:not([src=""]),
+.film-poster[src]:not([src=""]),
+.book-cover[src]:not([src=""]),
+.studio-logo img[src]:not([src=""]),
+.design-project-cover img[src]:not([src=""]),
+.search-result-logo[src]:not([src=""]) {
+  opacity: 1;
+}
+
+/* 图片加载完成后的渐入效果 */
+.card-media img,
+.featured-card img {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
