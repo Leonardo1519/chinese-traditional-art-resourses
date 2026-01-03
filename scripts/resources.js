@@ -39,7 +39,7 @@ export const resourceSections = [
         tags: ['展陈', '公共教育'],
       },
       {
-        name: '北京市文化和旅游局·非遗',
+        name: '北京市文化和旅游局',
         subtitle: '首都文化资源端',
         url: 'https://whlyj.beijing.gov.cn/',
         description:
@@ -241,7 +241,7 @@ export const resourceSections = [
         subtitle: 'China Cultural Relics Society',
         url: 'http://www.zgwwxh.com/',
         description:
-          '文物与非遗跨界组织，发布行业标准、保护指南及学术会议通知。',
+          '文物与非遗跨界组织，发布行业标准、保护指南以及学术会议通知等资讯。',
         logo: 'assets/academic/academic-heritage-society.jpg',
         tags: ['行业规范', '会议'],
       },

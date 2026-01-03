@@ -15,18 +15,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="icon" type="image/png" href="assets/brand/favicon.png" />
   </head>
   <body id="page-top" data-page="home">
     <header class="site-header">
-      <div class="logo-wrapper">
+      <a class="logo-wrapper" href="index.html" aria-label="返回主页">
         <img src="assets/brand/site-logo.svg" alt="非遗灵感充电站 logo" />
         <div class="logo-copy">
           <span class="brand-title">非遗灵感充电站</span>
-          <span class="brand-subtitle">汕头职业技术学院 · AI共创</span>
+          <span class="brand-subtitle">汕头职院非遗设计灵感库</span>
         </div>
-      </div>
+      </a>
       <nav class="primary-nav" aria-label="主导航">
-        <a href="index.html" data-route="home">网站主页</a>
         <a href="national.html" data-route="national">国家级平台</a>
         <a href="local.html" data-route="local">地方资源库</a>
         <a href="academic.html" data-route="academic">学术研究</a>
@@ -34,163 +34,275 @@
         <a href="celebrity.html" data-route="celebrity">名人纪念馆</a>
         <a href="international.html" data-route="international">国际非遗</a>
         <a href="red.html" data-route="red">红色专区</a>
+        <a href="film.html" data-route="film">非遗影视</a>
+        <a href="books.html" data-route="books">设计书籍</a>
+        <a href="design.html" data-route="design">文创项目</a>
+        <a href="studio.html" data-route="studio">设计工作室</a>
       </nav>
+      <button class="search-trigger" id="searchTrigger" aria-label="搜索">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="M21 21l-4.35-4.35"></path>
+        </svg>
+      </button>
     </header>
 
     <main>
-      <section class="hero-section" id="hero">
-        <div class="hero-content">
-          <p class="eyebrow">Ant Design 灵感工作台</p>
-          <h1>中国传统非遗资源的一站式导航中枢</h1>
-          <p class="lead">
-            以 Ant Design 的模块化思路重新梳理信息架构，将国家级、地方与学术资源汇聚成可快速筛选的灵感面板。
-          </p>
-          <div class="hero-metrics">
-            <div>
-              <strong>7</strong>
-              <span>核心板块</span>
-            </div>
-            <div>
-              <strong>280+</strong>
-              <span>精选入口</span>
-            </div>
-            <div>
-              <strong>24/7</strong>
-              <span>随时访问</span>
-            </div>
-          </div>
-          <div class="hero-cta">
-            <a class="btn primary" href="#overview">快速浏览</a>
-            <a
-              class="btn secondary"
-              href="mailto:stpt-ich@stpt.edu.cn?subject=非遗资源提交"
-              >提交资源</a
-            >
-          </div>
+      <!-- 项目简介（来自 README 摘要） -->
+      <section class="resource-section intro-section" id="intro">
+        <div class="section-head">
+          <h2>项目简介</h2>
+          <p>非遗灵感充电站是由汕头职业技术学院艺术设计学院发起的公益性非遗资源导航平台，通过现代 Web 技术和 AI 辅助编程，为设计教育、文创研发和文化传承提供一站式资源检索服务。</p>
         </div>
-        <div class="hero-panel">
-          <article class="panel-card">
-            <p class="eyebrow">最新推荐</p>
-            <h3>从概览到落地</h3>
-            <p>
-              结合教学、赛事与城市更新需求，将常用入口整理成「卡片+标签」式组件，便于收藏与复用。
-            </p>
-            <div class="tags-row">
-              <span class="chip accent">政策研读</span>
-              <span class="chip accent">课程共创</span>
-              <span class="chip">数字活化</span>
-            </div>
+        <div class="overview-grid">
+          <article class="overview-card">
+            <h3>🎯 发起初衷</h3>
+            <p>中国非遗资源分散在各级政府、博物馆、研究机构等平台，信息碎片化、检索困难。我们希望整合资源、服务教学、激发创意、传承文化，探索"师生+AI"协同创作的新型教学模式。</p>
           </article>
-          <article class="panel-card">
-            <p class="eyebrow">设计提示</p>
-            <h3>工作台清单</h3>
-            <ul class="panel-list">
-              <li>收藏常用的权威入口或项目库</li>
-              <li>在标签区记录适用场景与学科</li>
-              <li>将页面分享给团队共建素材池</li>
-            </ul>
+          <article class="overview-card">
+            <h3>📦 项目成果</h3>
+            <p>网站包含 11 大板块、290+ 精选资源入口，涵盖国家级平台、地方资源库、学术研究、博物馆、名人纪念馆、国际非遗、红色专区、影视、书籍、文创项目、设计工作室，可作为高校设计专业课程的常备资源库。</p>
+          </article>
+          <article class="overview-card">
+            <h3>🛠️ 技术架构</h3>
+            <p>采用 HTML5 / CSS3 / JavaScript (ES6+) 原生技术栈构建，借助 Cursor AI 辅助编程、GitHub 代码托管与版本控制、Vercel 云端自动化部署，实现零依赖、轻量化、响应式的高性能网站。</p>
+          </article>
+          <article class="overview-card">
+            <h3>🤖 AI 赋能传承</h3>
+            <p>AI 辅助编程降低技术门槛，让设计专业学生无需深厚编程背景也能构建专业级 Web 项目。AI 还赋能数据整理、内容生成与体验优化，加速非遗文化的数字化传承与创新应用。</p>
           </article>
         </div>
       </section>
 
-      <section class="overview-section resource-section" id="overview">
-        <div class="section-head">
-          <h2>按板块浏览非遗资源</h2>
-          <p>
-            根据用途选择国家级平台、地方资源或学术机构。每个板块都拥有独立页面，展示完整的链接与说明。
-          </p>
-        </div>
-        <div class="section-toolbar" role="toolbar">
-          <div class="toolbar-group">
-            <span class="stat-chip">
-              <small>板块</small>
-              <strong>7</strong>
-            </span>
-            <span class="stat-chip subtle">
-              <small>覆盖主题</small>
-              <strong>国家 / 地方 / 学术 / 博物馆 / 名人 / 国际 / 红色</strong>
-            </span>
-          </div>
-          <div class="toolbar-actions">
-            <a class="ghost-btn" href="national.html">国家级平台</a>
-            <a class="ghost-btn" href="local.html">地方资源库</a>
-            <a class="ghost-btn" href="academic.html">学术研究</a>
-            <a class="ghost-btn" href="museum.html">文史博物馆</a>
-            <a class="ghost-btn" href="celebrity.html">名人纪念馆</a>
-            <a class="ghost-btn" href="international.html">国际非遗</a>
-            <a class="ghost-btn" href="red.html">红色专区</a>
+      <section class="resource-section featured-section" id="featured">
+        <div class="section-head featured-head">
+          <div class="section-title">
+            <h2>热门推荐</h2>
           </div>
         </div>
-        <div class="overview-grid">
-          <a class="overview-card" href="national.html">
-            <h3>国家级非遗资源平台</h3>
-            <p>
-              文化和旅游部及直属机构、权威公告与数字博物馆入口，适合政策研读与课程立项。
-            </p>
-            <span class="chip accent">进入国家级板块</span>
+
+        <div class="resource-grid featured-grid" id="featured-grid">
+          <!-- 故宫博物院 -->
+          <a class="resource-card featured-card" href="https://www.dpm.org.cn/Home.html" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/1-故宫博物院-logo.jpg" alt="故宫博物院" />
+            </div>
+            <div class="resource-meta">
+              <h3>故宫博物院</h3>
+              <small>北京</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">明清宫廷</span>
+              <span class="chip">书画</span>
+              <span class="chip">陶瓷</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
-          <a class="overview-card" href="local.html">
-            <h3>地方特色非遗资源库</h3>
-            <p>
-              16 个重点省市地区的数字馆、保护中心与研学路线，助力地域采风与创作。
-            </p>
-            <span class="chip accent">进入地方板块</span>
+
+          <!-- 陕西历史博物馆 -->
+          <a class="resource-card featured-card" href="https://www.sxhm.com/index.html" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/2-陕西历史博物馆-logo.jpg" alt="陕西历史博物馆" />
+            </div>
+            <div class="resource-meta">
+              <h3>陕西历史博物馆</h3>
+              <small>陕西 · 西安</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">周秦汉唐</span>
+              <span class="chip">金银器</span>
+              <span class="chip">壁画</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
-          <a class="overview-card" href="academic.html">
-            <h3>国内学术机构与研究平台</h3>
-            <p>
-              高校实验室、研究院与行业社团，为论文写作与课程教学提供理论支撑。
-            </p>
-            <span class="chip accent">进入学术板块</span>
+
+          <!-- 秦始皇帝陵博物院 -->
+          <a class="resource-card featured-card" href="https://bmy.com.cn/" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/3-秦始皇帝陵博物院-logo.jpg" alt="秦始皇帝陵博物院" />
+            </div>
+            <div class="resource-meta">
+              <h3>秦始皇帝陵博物院</h3>
+              <small>陕西 · 西安</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">兵马俑</span>
+              <span class="chip">秦始皇陵</span>
+              <span class="chip">青铜车马</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
-          <a class="overview-card" href="museum.html">
-            <h3>中国文史博物馆资源库</h3>
-            <p>
-              汇聚全国 26 个省市自治区 200+ 重点博物馆，一站式探索中华文明瑰宝。
-            </p>
-            <span class="chip accent">进入博物馆板块</span>
+
+          <!-- 浙江省博物馆 -->
+          <a class="resource-card featured-card" href="https://www.zhejiangmuseum.com/cn/#/" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/4-浙江省博物馆-logo.jpg" alt="浙江省博物馆" />
+            </div>
+            <div class="resource-meta">
+              <h3>浙江省博物馆</h3>
+              <small>浙江 · 杭州</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">良渚文化</span>
+              <span class="chip">陶瓷</span>
+              <span class="chip">书画</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
-          <a class="overview-card" href="celebrity.html">
-            <h3>历史文化名人纪念馆</h3>
-            <p>
-              追寻孔子、杜甫、鲁迅等历史名人足迹，感受中华文化的精神传承与人文底蕴。
-            </p>
-            <span class="chip accent">进入名人板块</span>
+
+          <!-- 湖北省博物馆 -->
+          <a class="resource-card featured-card" href="https://www.hbww.org.cn/home/index.html" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/5-湖北省博物馆-logo.jpg" alt="湖北省博物馆" />
+            </div>
+            <div class="resource-meta">
+              <h3>湖北省博物馆</h3>
+              <small>湖北 · 武汉</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">楚文化</span>
+              <span class="chip">曾侯乙墓</span>
+              <span class="chip">青铜器</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
-          <a class="overview-card" href="international.html">
-            <h3>国际非遗研究中心与数据库</h3>
-            <p>
-              UNESCO资源、一带一路合作项目与海外汉学机构，拓展文化遗产研究国际视野。
-            </p>
-            <span class="chip accent">进入国际板块</span>
+
+          <!-- 三星堆博物馆 -->
+          <a class="resource-card featured-card" href="https://www.sxd.cn/" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/6-三星堆博物馆-logo.jpg" alt="三星堆博物馆" />
+            </div>
+            <div class="resource-meta">
+              <h3>三星堆博物馆</h3>
+              <small>四川 · 广汉</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">三星堆</span>
+              <span class="chip">青铜神树</span>
+              <span class="chip">金面具</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
-          <a class="overview-card card-red" href="red.html">
-            <h3>爱国教育·红色专区</h3>
-            <p>
-              从鸦片战争到新中国成立，全国红色革命纪念馆资源，传承红色基因与革命精神。
-            </p>
-            <span class="chip accent">进入红色板块</span>
+
+          <!-- 山西博物院 -->
+          <a class="resource-card featured-card" href="https://www.shanximuseum.com.cn/" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/7-山西博物院-logo.jpg" alt="山西博物院" />
+            </div>
+            <div class="resource-meta">
+              <h3>山西博物院</h3>
+              <small>山西 · 太原</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">晋文化</span>
+              <span class="chip">青铜器</span>
+              <span class="chip">壁画</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
+          </a>
+
+          <!-- 殷墟博物馆 -->
+          <a class="resource-card featured-card" href="https://www.ayyx.com/" target="_blank" rel="noreferrer">
+            <div class="card-media">
+              <img class="resource-logo" src="assets/featured/8-殷墟博物馆-logo.jpg" alt="殷墟博物馆" />
+            </div>
+            <div class="resource-meta">
+              <h3>殷墟博物馆</h3>
+              <small>河南 · 安阳</small>
+            </div>
+            <div class="tags-row">
+              <span class="chip">殷墟遗址</span>
+              <span class="chip">甲骨文</span>
+              <span class="chip">商代文物</span>
+            </div>
+            <div class="card-actions">
+              <span class="card-link">访问官网 →</span>
+            </div>
           </a>
         </div>
       </section>
     </main>
 
+    <!-- 搜索弹窗 -->
+    <div class="search-overlay" id="searchOverlay">
+      <div class="search-modal">
+        <div class="search-header">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="M21 21l-4.35-4.35"></path>
+            </svg>
+            <input type="text" class="search-input" id="searchInput" placeholder="搜索资源、博物馆、非遗项目..." autocomplete="off" />
+          </div>
+          <button class="search-close" id="searchClose" aria-label="关闭搜索">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 6L6 18"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="search-results" id="searchResults">
+          <div class="search-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="M21 21l-4.35-4.35"></path>
+            </svg>
+            <p>输入关键词搜索全站资源</p>
+            <span>支持搜索：资源名称、描述、标签</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <a class="scroll-top-btn" href="#page-top" aria-label="返回顶部">↑</a>
 
     <footer class="site-footer">
-      <p>
-        © 2025 非遗灵感充电站 · 汕头职业技术学院文化创意与数字技术团队 ·
-        All Rights Reserved.
-      </p>
-      <div class="footer-links">
-        <a href="#hero">回到顶部</a>
-        <a href="https://www.ihchina.cn/" target="_blank" rel="noreferrer"
-          >中国非物质文化遗产网</a
-        >
+      <div class="footer-left">
+        <div class="footer-brand">
+          <img src="assets/brand/favicon.svg" alt="非遗灵感充电站" />
+          <div class="footer-brand-text">
+            <span class="name">非遗灵感充电站</span>
+            <span class="slogan">传承非遗文化，激发创意灵感</span>
+          </div>
+        </div>
+        <div class="footer-friend-links">
+          <span class="label">友情链接：</span>
+          <a href="https://www.stpt.edu.cn/" target="_blank" rel="noreferrer">汕头职业技术学院</a>
+          <a href="https://www.stpt.edu.cn/yinggewu/" target="_blank" rel="noreferrer">汕头市英歌数字艺术馆</a>
+          <a href="https://yssj.gdqy.edu.cn/" target="_blank" rel="noreferrer">广东轻工职业技术学院艺术设计学院</a>
+        </div>
+        <p>© 2025 非遗灵感充电站 · 汕头职业技术学院艺术设计学院 · All Rights Reserved.</p>
+      </div>
+      <div class="footer-qrcode">
+        <div class="qrcode-item">
+          <img src="assets/qrcode/1-汕职院艺术设计学院-二维码.png" alt="汕职院艺术设计学院公众号" />
+          <span>汕职院艺术设计学院</span>
+        </div>
+        <div class="qrcode-item">
+          <img src="assets/qrcode/2-汕头职业技术学院-二维码.png" alt="汕头职业技术学院公众号" />
+          <span>汕头职业技术学院</span>
+        </div>
+        <div class="qrcode-item">
+          <img src="assets/qrcode/3-汕头职院学工在线-二维码.png" alt="汕头职院学工在线公众号" />
+          <span>汕头职院学工在线</span>
+        </div>
       </div>
     </footer>
 
     <script type="module" src="scripts/main.js"></script>
   </body>
 </html>
-

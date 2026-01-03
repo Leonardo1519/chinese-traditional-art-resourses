@@ -225,21 +225,21 @@ export const redResources = [
   {
     name: '辛亥革命博物馆',
     url: 'https://1911museum.org.cn/',
-    description: '武昌起义发源地，展示辛亥革命历史与民主共和精神的诞生历程。',
+    description: '武昌起义的发源地，展示了辛亥革命的历史与民主共和精神的诞生历程。',
     logo: 'assets/red/2-辛亥革命博物馆-logo.jpg',
     tags: ['辛亥革命', '武汉'],
   },
   {
     name: '南湖革命纪念馆',
     url: 'https://www.nanhujng.cn/',
-    description: '中国共产党诞生地之一，展示中共一大在嘉兴南湖闭幕的光辉历史。',
+    description: '中国共产党诞生地之一，展示中国共产党第一次全国代表大会在嘉兴南湖闭幕的光辉历史。',
     logo: 'assets/red/3-南湖革命纪念馆-logo.jpg',
     tags: ['建党历史', '嘉兴'],
   },
   {
     name: '南昌八一起义纪念馆',
     url: 'http://www.81-china.com/',
-    description: '人民军队诞生地，纪念1927年八一南昌起义，是军史教育核心基地。',
+    description: '人民军队的诞生地，纪念1927年八一南昌起义，是军史教育核心基地。',
     logo: 'assets/red/4-南昌八一起义纪念馆-logo.jpg',
     tags: ['建军历史', '南昌'],
   },
@@ -253,7 +253,7 @@ export const redResources = [
   {
     name: '井冈山革命博物馆',
     url: 'https://www.jgsgmbwg.com/',
-    description: '中国革命摇篮，展示井冈山革命根据地创建历程与红色精神传承。',
+    description: '中国革命的摇篮，展示井冈山革命根据地的创建历程，传承红色精神。',
     logo: 'assets/red/6-井冈山革命博物馆-logo.jpg',
     tags: ['革命摇篮', '井冈山'],
   },
@@ -288,7 +288,7 @@ export const redResources = [
   {
     name: '八路军太行纪念馆',
     url: 'http://www.balujun.cn/',
-    description: '展示八路军在太行山区的抗战历程与太行精神，是抗战史研究重地。',
+    description: '展示八路军在太行山区的抗战历程与太行精神，是中国抗日战争历史的研究重地。',
     logo: 'assets/red/11-八路军太行纪念馆-logo.jpg',
     tags: ['抗战历史', '长治'],
   },
@@ -302,7 +302,7 @@ export const redResources = [
   {
     name: '鄂豫皖苏区首府革命博物馆',
     url: 'http://www.eywsfgmbwg.cn/',
-    description: '展示鄂豫皖革命根据地创建与发展历程，是大别山革命史教育基地。',
+    description: '展示鄂豫皖革命根据地的创建与发展历程，是大别山革命史教育基地。',
     logo: 'assets/red/13-鄂豫皖苏区首府革命博物馆-logo.jpg',
     tags: ['苏区历史', '新县'],
   },
@@ -316,7 +316,7 @@ export const redResources = [
   {
     name: '湘南起义纪念馆',
     url: 'http://www.xnqyjng.com/',
-    description: '纪念1928年湘南起义，展示朱德、陈毅领导的这场重要武装起义。',
+    description: '纪念由朱德、陈毅等人领导的1928年湘南武装起义。',
     logo: 'assets/red/15-湘南起义纪念馆-logo.jpg',
     tags: ['武装起义', '郴州'],
   },

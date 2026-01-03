@@ -15,18 +15,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="icon" type="image/png" href="assets/brand/favicon.png" />
   </head>
   <body id="page-top" data-page="local">
     <header class="site-header">
-      <div class="logo-wrapper">
+      <a class="logo-wrapper" href="index.html" aria-label="返回主页">
         <img src="assets/brand/site-logo.svg" alt="非遗灵感充电站 logo" />
         <div class="logo-copy">
           <span class="brand-title">非遗灵感充电站</span>
-          <span class="brand-subtitle">汕头职业技术学院 · AI共创</span>
+          <span class="brand-subtitle">汕头职院非遗设计灵感库</span>
         </div>
-      </div>
+      </a>
       <nav class="primary-nav" aria-label="主导航">
-        <a href="index.html" data-route="home">网站主页</a>
         <a href="national.html" data-route="national">国家级平台</a>
         <a href="local.html" data-route="local">地方资源库</a>
         <a href="academic.html" data-route="academic">学术研究</a>
@@ -34,45 +34,108 @@
         <a href="celebrity.html" data-route="celebrity">名人纪念馆</a>
         <a href="international.html" data-route="international">国际非遗</a>
         <a href="red.html" data-route="red">红色专区</a>
+        <a href="film.html" data-route="film">非遗影视</a>
+        <a href="books.html" data-route="books">设计书籍</a>
+        <a href="design.html" data-route="design">文创项目</a>
+        <a href="studio.html" data-route="studio">设计工作室</a>
       </nav>
+      <button class="search-trigger" id="searchTrigger" aria-label="搜索">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="M21 21l-4.35-4.35"></path>
+        </svg>
+      </button>
     </header>
 
     <main>
-      <section class="resource-section" id="local" data-section-id="local">
-        <div class="section-head with-stats">
-          <div class="section-intro">
-            <h2>各地非遗门户</h2>
-            <p>
-              选择目标省份即可访问当地非遗保护中心、数字馆或专题网站，了解传承重点与项目动态。
-            </p>
+      <section class="section-hero museum-hero">
+        <div class="hero-content">
+          <h1>地方特色非遗资源库</h1>
+          <p class="lead hero-single-line">
+            选择目标省份即可访问当地非遗保护中心、数字馆或专题网站，了解传承重点与项目动态。
+          </p>
+        </div>
+        <div class="hero-metrics-inline">
+          <div>
+            <strong data-count-for="local">0</strong>
+            <span>收录资源</span>
           </div>
-          <div class="section-stats">
-            <span class="stat-chip">
-              <small>收录资源</small>
-              <strong data-count-for="local">0</strong>
-            </span>
-            <span class="stat-chip subtle">
-              <small>覆盖省份</small>
-              <strong>16+</strong>
-            </span>
+          <div>
+            <strong>16+</strong>
+            <span>覆盖省份</span>
           </div>
         </div>
+      </section>
+
+      <section class="resource-section" id="local" data-section-id="local">
         <div class="resource-grid" data-grid="local"></div>
       </section>
     </main>
 
+    <!-- 搜索弹窗 -->
+    <div class="search-overlay" id="searchOverlay">
+      <div class="search-modal">
+        <div class="search-header">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="M21 21l-4.35-4.35"></path>
+            </svg>
+            <input type="text" class="search-input" id="searchInput" placeholder="搜索资源、博物馆、非遗项目..." autocomplete="off" />
+            <kbd class="search-kbd">ESC</kbd>
+          </div>
+          <button class="search-close" id="searchClose" aria-label="关闭搜索">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 6L6 18"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="search-results" id="searchResults">
+          <div class="search-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="M21 21l-4.35-4.35"></path>
+            </svg>
+            <p>输入关键词搜索全站资源</p>
+            <span>支持搜索：资源名称、描述、标签</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <a class="scroll-top-btn" href="#page-top" aria-label="返回顶部">↑</a>
 
     <footer class="site-footer">
-      <p>
-        © 2025 非遗灵感充电站 · 汕头职业技术学院文化创意与数字技术团队 ·
-        All Rights Reserved.
-      </p>
-      <div class="footer-links">
-        <a href="index.html">回到总览</a>
-        <a href="https://www.ihchina.cn/" target="_blank" rel="noreferrer"
-          >中国非物质文化遗产网</a
-        >
+      <div class="footer-left">
+        <div class="footer-brand">
+          <img src="assets/brand/favicon.svg" alt="非遗灵感充电站" />
+          <div class="footer-brand-text">
+            <span class="name">非遗灵感充电站</span>
+            <span class="slogan">传承非遗文化，激发创意灵感</span>
+          </div>
+        </div>
+        <div class="footer-friend-links">
+          <span class="label">友情链接：</span>
+          <a href="https://www.stpt.edu.cn/" target="_blank" rel="noreferrer">汕头职业技术学院</a>
+          <a href="https://www.stpt.edu.cn/yinggewu/" target="_blank" rel="noreferrer">汕头市英歌数字艺术馆</a>
+          <a href="https://yssj.gdqy.edu.cn/" target="_blank" rel="noreferrer">广东轻工职业技术学院艺术设计学院</a>
+        </div>
+        <p>© 2025 非遗灵感充电站 · 汕头职业技术学院艺术设计学院 · All Rights Reserved.</p>
+      </div>
+      <div class="footer-qrcode">
+        <div class="qrcode-item">
+          <img src="assets/qrcode/1-汕职院艺术设计学院-二维码.png" alt="汕职院艺术设计学院公众号" />
+          <span>汕职院艺术设计学院</span>
+        </div>
+        <div class="qrcode-item">
+          <img src="assets/qrcode/2-汕头职业技术学院-二维码.png" alt="汕头职业技术学院公众号" />
+          <span>汕头职业技术学院</span>
+        </div>
+        <div class="qrcode-item">
+          <img src="assets/qrcode/3-汕头职院学工在线-二维码.png" alt="汕头职院学工在线公众号" />
+          <span>汕头职院学工在线</span>
+        </div>
       </div>
     </footer>
 
