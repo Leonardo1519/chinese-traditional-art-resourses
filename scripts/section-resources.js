@@ -128,7 +128,7 @@ export const internationalResources = [
     subtitle: '联合国教科文组织',
     url: 'https://ich.unesco.org/en/home',
     description: '全球非物质文化遗产保护的权威平台，收录各国非遗名录、公约文本与最佳实践案例。',
-    logo: 'assets/international/1-联合国教科文组织(UNESCO)非物质文化遗产官网-logo.jpg',
+    logo: 'assets/international/1-UNESCO Cultural Hertiage Official Website-logo.jpg',
     tags: ['国际权威', '公约名录'],
   },
   {
@@ -136,7 +136,7 @@ export const internationalResources = [
     subtitle: 'UNESDOC Library',
     url: 'https://unesdoc.unesco.org/library',
     description: '联合国教科文组织数字图书馆，提供全球非遗研究报告、学术文献与政策文件检索。',
-    logo: 'assets/international/2-UNESCO数字博物馆-非遗专题-logo.jpg',
+    logo: 'assets/international/2-UNESCO Digital Museum-Cultural Topic-logo.jpg',
     tags: ['学术文献', '政策研究'],
   },
   {
@@ -144,7 +144,7 @@ export const internationalResources = [
     subtitle: 'WHITR-AP',
     url: 'https://www.whitr-ap.org/',
     description: '亚太地区非遗保护培训与研究中心，推动区域合作与能力建设。',
-    logo: 'assets/international/3-UNESCO非遗-亚太区-logo.jpg',
+    logo: 'assets/international/3-UNESCO ASIA-logo.jpg',
     tags: ['亚太区域', '能力建设'],
   },
   {
@@ -152,7 +152,7 @@ export const internationalResources = [
     subtitle: 'International Dunhuang Project',
     url: 'https://idp.bl.uk/',
     description: '大英图书馆主导的国际合作项目，数字化敦煌与丝路沿线出土文献与艺术品。',
-    logo: 'assets/international/4-国际敦煌项目-logo.jpg',
+    logo: 'assets/international/4-IDP-logo.jpg',
     tags: ['丝路文献', '数字化'],
   },
   {
@@ -160,7 +160,7 @@ export const internationalResources = [
     subtitle: '一带一路联合实验室',
     url: 'https://www.dpm.org.cn/ydyl/en/index.html',
     description: '中希两国文化遗产保护科技合作平台，开展文物保护修复与数字化研究。',
-    logo: 'assets/international/5-中国-希腊文化遗产保护科学-一带一路联合实验室-logo.jpg',
+    logo: 'assets/international/5-China-Greece-YiDaiYiLu Cultural Hertiage Reservation Tech Lab-logo.jpg',
     tags: ['一带一路', '科技保护'],
   },
   {
@@ -168,7 +168,7 @@ export const internationalResources = [
     subtitle: '一带一路联合实验室',
     url: 'https://jlbri.suda.edu.cn/main.htm',
     description: '中葡文物保护技术合作平台，推动丝绸文物与海洋出水文物保护研究。',
-    logo: 'assets/international/6-中国-葡萄牙文物保护技术-一带一路联合实验室-logo.jpg',
+    logo: 'assets/international/6-China-Portugal-YiDaiYiLu Cultural Hertiage Reservation Tech Lab-logo.jpg',
     tags: ['一带一路', '文物保护'],
   },
   {
@@ -176,7 +176,7 @@ export const internationalResources = [
     subtitle: 'CICE',
     url: 'https://www.cice.org.cn/',
     description: '文化和旅游部直属机构，统筹对外文化交流与中华文化海外推广工作。',
-    logo: 'assets/international/7-中外文化交流中心-logo.jpg',
+    logo: 'assets/international/7-Center for Cultural Exchange between China and Foreign Countries-logo.jpg',
     tags: ['文化外交', '海外推广'],
   },
   {
@@ -184,7 +184,7 @@ export const internationalResources = [
     subtitle: '中国日报社',
     url: 'https://culturepedia.chinadaily.com.cn/#/homePage',
     description: '中英双语的中华文化数据库，为国际传播与跨文化研究提供权威内容支撑。',
-    logo: 'assets/international/8-中国日报社-中华文化英文知识库-logo.jpg',
+    logo: 'assets/international/8-China Daily-Chinese Culture Repository-logo.jpg',
     tags: ['双语资源', '国际传播'],
   },
   {
@@ -192,7 +192,7 @@ export const internationalResources = [
     subtitle: 'Weatherhead East Asian Institute',
     url: 'https://weai.columbia.edu/',
     description: '美国顶尖东亚研究机构，开展中国文化、历史与当代社会的跨学科研究。',
-    logo: 'assets/international/9-哥伦比亚大学东亚研究所-logo.jpg',
+    logo: 'assets/international/9-Columbia University East Asia Research Center-logo.jpg',
     tags: ['海外汉学', '学术研究'],
   },
   {
@@ -200,7 +200,7 @@ export const internationalResources = [
     subtitle: 'BU Asian Studies',
     url: 'https://www.bu.edu/asian/',
     description: '波士顿大学东亚研究平台，提供中国文化与艺术相关课程与学术资源。',
-    logo: 'assets/international/10-波士顿大学东亚研究中心-logo.jpg',
+    logo: 'assets/international/10-Boston University East Asia Research Center-logo.jpg',
     tags: ['海外汉学', '课程资源'],
   },
   {
@@ -208,7 +208,7 @@ export const internationalResources = [
     subtitle: 'UCL Chinese Heritage',
     url: 'https://www.ucl.ac.uk/chinese-heritage-archaeology/',
     description: '伦敦大学学院专注于中国文化遗产与考古研究的学术机构，开展国际合作项目。',
-    logo: 'assets/international/11-伦敦大学中国文化遗产与考古中心-logo.jpg',
+    logo: 'assets/international/11-UCL Institute of Archaeology-logo.jpg',
     tags: ['海外汉学', '考古研究'],
   },
 ];
