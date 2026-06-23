@@ -102,8 +102,8 @@ export const museumResources = {
     { name: '嘉兴博物馆', url: 'https://www.jiaxingmuseum.com/', description: '嘉兴历史，运河文化，书画', logo: 'assets/museum/zhejiang/13-嘉兴博物馆-logo.jpg' },
   ],
   shanghai: [
-    { name: '上海博物馆', url: 'https://www.shanghaimuseum.net/mu/frontend/pg/index', description: '青铜器，陶瓷，书画，钱币', logo: 'assets/museum/shanghai/1-上海博物馆-logo.jpg' },
-    { name: '上海历史博物馆', url: 'https://www.shh-shrhmuseum.org.cn/', description: '上海近代史，城市发展，革命文物', logo: 'assets/museum/shanghai/2-上海历史博物馆-logo.jpg' },
+    { name: '上海博物馆', url: 'https://www.shanghaimuseum.net/mu/frontend/pg/index', description: '青铜器，陶瓷，书画，钱币', logo: 'assets/museum/shanghai/1-Shanghai Museum-logo.jpg' },
+    { name: '上海历史博物馆', url: 'https://www.shh-shrhmuseum.org.cn/', description: '上海近代史，城市发展，革命文物', logo: 'assets/museum/shanghai/2-Shanghai Historical Museum-logo.jpg' },
   ],
   jiangsu: [
     { name: '江苏省江海博物馆', url: 'http://www.jssjhmuseum.hmdzzw.cn/', description: '江海文化，海洋历史，民俗', logo: 'assets/museum/jiangsu/1-江苏省江海博物馆-logo.jpg' },
@@ -248,12 +248,12 @@ export const museumResources = {
     { name: '漳州市博物馆', url: 'https://www.fjzzmuseum.com/', description: '漳州历史，闽南文化，陶瓷', logo: 'assets/museum/fujian/12-漳州市博物馆-logo.jpg' },
   ],
   guizhou: [
-    { name: '贵州省博物馆', url: 'https://www.gzmuseum.com/', description: '贵州历史，少数民族文化，服饰，银饰', logo: 'assets/museum/guizhou/1-贵州省博物馆-logo.jpg' },
-    { name: '贵州省民族博物馆', url: 'https://www.gzsmzmuseum.cn/', description: '少数民族文化，服饰，民俗', logo: 'assets/museum/guizhou/2-贵州省民族博物馆-logo.jpg' },
-    { name: '遵义市博物馆', url: 'http://www.zysbwg.cn/', description: '遵义历史，红色文化，民俗', logo: 'assets/museum/guizhou/3-遵义市博物馆-logo.jpg' },
-    { name: '毕节市博物馆', url: 'http://www.bjmuseum.net/', description: '毕节历史，彝族文化，民俗', logo: 'assets/museum/guizhou/4-毕节市博物馆-logo.jpg' },
-    { name: '黔东南州民族博物馆', url: 'http://www.qdnzmb.com/', description: '苗族侗族文化，服饰，银饰', logo: 'assets/museum/guizhou/5-黔东南州民族博物馆-logo.jpg' },
-    { name: '黔西南州博物馆', url: 'https://qxnzbwg.cn/', description: '黔西南历史，布依族文化，民俗', logo: 'assets/museum/guizhou/6-黔西南州博物馆-logo.jpg' },
+    { name: '贵州省博物馆', url: 'https://www.gzmuseum.com/', description: '贵州历史，少数民族文化，服饰，银饰', logo: 'assets/museum/guizhou/1-Guizhou Museum-logo.jpg' },
+    { name: '贵州省民族博物馆', url: 'https://www.gzsmzmuseum.cn/', description: '少数民族文化，服饰，民俗', logo: 'assets/museum/guizhou/2-Guizhou Nationalities Museum-logo.jpg' },
+    { name: '遵义市博物馆', url: 'http://www.zysbwg.cn/', description: '遵义历史，红色文化，民俗', logo: 'assets/museum/guizhou/3-Zunyi Museum-logo.jpg' },
+    { name: '毕节市博物馆', url: 'http://www.bjmuseum.net/', description: '毕节历史，彝族文化，民俗', logo: 'assets/museum/guizhou/4-Bijie Museum-logo.jpg' },
+    { name: '黔东南州民族博物馆', url: 'http://www.qdnzmb.com/', description: '苗族侗族文化，服饰，银饰', logo: 'assets/museum/guizhou/5-National Museum of Qiandongnan Prefecture-logo.jpg' },
+    { name: '黔西南州博物馆', url: 'https://qxnzbwg.cn/', description: '黔西南历史，布依族文化，民俗', logo: 'assets/museum/guizhou/6-Qianxinan Museum-logo.jpg' },
   ],
   yunnan: [
     { name: '云南省博物馆', url: 'https://www.ynmuseum.org/index.html', description: '云南历史，少数民族文化，青铜器，佛教艺术', logo: 'assets/museum/yunnan/1-Yunnan Museum-logo.jpg' },
@@ -264,11 +264,11 @@ export const museumResources = {
     { name: '红河州博物馆', url: 'http://www.hhzbwg.com/', description: '红河历史，哈尼族文化，民俗', logo: 'assets/museum/yunnan/6-Honghe Zhou Museum-logo.jpg' },
   ],
   hunan: [
-    { name: '湖南省博物馆', url: 'https://www.hnmuseum.com/', description: '楚文化，马王堆汉墓，青铜器，书画', logo: 'assets/museum/hunan/1-湖南省博物馆-logo.jpg' },
-    { name: '长沙博物馆', url: 'https://www.csm.hn.cn/', description: '长沙历史，楚汉文物，民俗', logo: 'assets/museum/hunan/2-长沙博物馆-logo.jpg' },
-    { name: '长沙简牍博物馆', url: 'https://www.chinajiandu.cn/', description: '简牍文献，汉代文书，书法', logo: 'assets/museum/hunan/3-长沙简牍博物馆-logo.jpg' },
-    { name: '浏阳市博物馆', url: 'https://liuyangbwg.com/', description: '浏阳历史，花炮文化，民俗', logo: 'assets/museum/hunan/4-浏阳市博物馆-logo.jpg' },
-    { name: '湖南省宋旦汉字艺术博物馆', url: 'http://www.sdhzbwg.com/', description: '汉字艺术，书法，设计', logo: 'assets/museum/hunan/5-湖南省宋旦汉字艺术博物馆-logo.jpg' },
+    { name: '湖南省博物馆', url: 'https://www.hnmuseum.com/', description: '楚文化，马王堆汉墓，青铜器，书画', logo: 'assets/museum/hunan/1-Hunan Museum-logo.jpg' },
+    { name: '长沙博物馆', url: 'https://www.csm.hn.cn/', description: '长沙历史，楚汉文物，民俗', logo: 'assets/museum/hunan/2-Changsha Museum-logo.jpg' },
+    { name: '长沙简牍博物馆', url: 'https://www.chinajiandu.cn/', description: '简牍文献，汉代文书，书法', logo: 'assets/museum/hunan/3-Changsha Jiandu Museum-logo.jpg' },
+    { name: '浏阳市博物馆', url: 'https://liuyangbwg.com/', description: '浏阳历史，花炮文化，民俗', logo: 'assets/museum/hunan/4-Liuyang Museum-logo.jpg' },
+    { name: '湖南省宋旦汉字艺术博物馆', url: 'http://www.sdhzbwg.com/', description: '汉字艺术，书法，设计', logo: 'assets/museum/hunan/5-Hunan SongDan Chinese Character Art Museum-logo.jpg' },
   ],
   guangxi: [
     { name: '广西壮族自治区博物馆', url: 'https://www.gxmuseum.cn/', description: '广西历史，壮族文化，铜鼓，陶瓷', logo: 'assets/museum/guangxi/1-广西壮族自治区博物馆-logo.jpg' },
@@ -280,11 +280,11 @@ export const museumResources = {
     { name: '玉林市博物馆', url: 'http://www.ylmuseum.org/', description: '玉林历史，民俗，陶瓷', logo: 'assets/museum/guangxi/7-玉林市博物馆-logo.jpg' },
   ],
   hainan: [
-    { name: '海南省博物馆', url: 'https://www.hainanmuseum.org/', description: '海南历史，黎族文化，海洋文物', logo: 'assets/museum/hainan/1-海南省博物馆-logo.jpg' },
-    { name: '海南省民族博物馆', url: 'http://www.hnmzbwg.com/', description: '黎族苗族文化，服饰，民俗', logo: 'assets/museum/hainan/2-海南省民族博物馆-logo.jpg' },
-    { name: '中国（海南）南海博物馆', url: 'http://www.nanhaimuseum.org/', description: '南海历史，海洋权益，水下考古', logo: 'assets/museum/hainan/3-中国(海南)南海博物馆-logo.jpg' },
-    { name: '海南农垦博物馆', url: 'https://www.nkbwg.com/', description: '农垦历史，橡胶文化，农业遗产', logo: 'assets/museum/hainan/4-海南农垦博物馆-logo.jpg' },
-    { name: '三亚市博物馆', url: 'http://sanyamuseum.com/', description: '三亚历史，海洋文化，民俗', logo: 'assets/museum/hainan/5-三亚市博物馆-logo.jpg' },
+    { name: '海南省博物馆', url: 'https://www.hainanmuseum.org/', description: '海南历史，黎族文化，海洋文物', logo: 'assets/museum/hainan/1-Hainan Museum-logo.jpg' },
+    { name: '海南省民族博物馆', url: 'http://www.hnmzbwg.com/', description: '黎族苗族文化，服饰，民俗', logo: 'assets/museum/hainan/2-Hainan Provincial Museum of Nationalities-logo.jpg' },
+    { name: '中国（海南）南海博物馆', url: 'http://www.nanhaimuseum.org/', description: '南海历史，海洋权益，水下考古', logo: 'assets/museum/hainan/3-China Hainan Museum of the South China Sea-logo.jpg' },
+    { name: '海南农垦博物馆', url: 'https://www.nkbwg.com/', description: '农垦历史，橡胶文化，农业遗产', logo: 'assets/museum/hainan/4-Hainan State Farms Museum-logo.jpg' },
+    { name: '三亚市博物馆', url: 'http://sanyamuseum.com/', description: '三亚历史，海洋文化，民俗', logo: 'assets/museum/hainan/5-Sanya City Museum-logo.jpg' },
   ],
   jiangxi: [
     { name: '江西省博物馆', url: 'https://www.jxmuseum.cn/', description: '江西历史，陶瓷，青铜器，书画', logo: 'assets/museum/jiangxi/1-江西省博物馆-logo.jpg' },
