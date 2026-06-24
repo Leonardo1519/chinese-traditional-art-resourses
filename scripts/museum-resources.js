@@ -24,9 +24,9 @@ export const museumCategories = [
   { id: 'hainan', name: '海南省', displayName: '海南' },
   { id: 'jiangxi', name: '江西省', displayName: '江西' },
   { id: 'liaoning', name: '辽宁省', displayName: '辽宁' },
-  { id: 'jilin-heilongjiang', name: '吉林省·黑龙江省', displayName: '吉黑' },
-  { id: 'ningxia-qinghai-xizang', name: '宁夏·青海·西藏', displayName: '宁青藏' },
-  { id: 'neimeng-xinjiang', name: '内蒙古·新疆', displayName: '蒙新' },
+  { id: 'jilin-heilongjiang', name: '吉林省·黑龙江省', displayName: '吉林/黑龙江' },
+  { id: 'ningxia-qinghai-xizang', name: '宁夏·青海·西藏', displayName: '宁夏/青海/西藏' },
+  { id: 'neimeng-xinjiang', name: '内蒙古·新疆', displayName: '内蒙/新疆' },
 ];
 
 export const museumResources = {
