@@ -84,7 +84,7 @@ export const museumResources = {
     { name: '安康博物馆', url: 'https://www.akbwg.cn/index.html', description: '安康历史，巴蜀文化，民俗', logo: 'assets/museum/shaanxi/10-Ankang Museum-logo.jpg' },
     { name: '铜川博物馆', url: 'http://www.tongchuanbwg.com/', description: '铜川历史，陶瓷，煤炭文化', logo: 'assets/museum/shaanxi/11-Tongchuan Museum-logo.jpg' },
     { name: '渭南市博物馆', url: 'http://www.wnsbwg.com/', description: '渭南历史，农耕文化，民俗', logo: 'assets/museum/shaanxi/12-Weinan Museum-logo.jpg' },
-    { name: '乾陵景区', url: 'https://www.shanxiqianling.com/', description: '唐代陵墓，石刻艺术，武则天', logo: 'assets/museum/shaanxi/13--Qianling Mausoleum-logo.jpg' },
+    { name: '乾陵景区', url: 'https://www.shanxiqianling.com/', description: '唐代陵墓，石刻艺术，武则天', logo: 'assets/museum/shaanxi/13-Qianling Mausoleum-logo.jpg' },
   ],
   zhejiang: [
     { name: '浙江省博物馆', url: 'https://www.zhejiangmuseum.com/cn/#/', description: '浙江历史，良渚文化，陶瓷，书画', logo: 'assets/museum/zhejiang/1-Zhejiang Museum-logo.jpg' },
